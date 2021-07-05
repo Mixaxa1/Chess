@@ -1,4 +1,4 @@
-from Сhessmen import *
+from Figures import *
 
 
 class Tile:
@@ -24,6 +24,9 @@ class Board:
 
     def delete_figure(self, cords):
         self.board[cords[1]][cords[0]].figure = None
+
+    def get_board(self):
+        return self.board
 
 
 def get_tile_color(cords):

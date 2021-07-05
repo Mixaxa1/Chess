@@ -2,127 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b672119a-5dad-43d3-8c46-ad963093aeef" name="Default Changelist" comment=":construction: test">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_07_2021_16_17_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_07_2021_16_17_[Default_Changelist]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_07_2021_16_17__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/Board.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/_markerlib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/_markerlib/markers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/easy_install.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/pkg_resources.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools-2.1.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools-2.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools-2.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools-2.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools-2.1.dist-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools-2.1.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools-2.1.dist-info/entry_points.txt.orig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools-2.1.dist-info/pydist.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools-2.1.dist-info/requires.txt.orig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools-2.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools-2.1.dist-info/zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/archive_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/cli-32.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/cli-64.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/cli-arm-32.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/cli.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/alias.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/bdist_egg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/bdist_rpm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/bdist_wininst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/build_ext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/build_py.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/develop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/easy_install.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/egg_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/install.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/install_egg_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/install_lib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/install_scripts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/launcher manifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/register.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/rotate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/saveopts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/sdist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/setopt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/command/upload_docs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/depends.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/dist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/extension.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/gui-32.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/gui-64.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/gui-arm-32.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/gui.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/lib2to3_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/package_index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/py26compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/py27compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/py31compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/sandbox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/script template (dev).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/script template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/site-patch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/ssl_support.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/svn_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/doctest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/environment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/py26compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/script-with-bom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/test_bdist_egg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/test_build_ext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/test_develop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/test_dist_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/test_easy_install.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/test_egg_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/test_markerlib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/test_packageindex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/test_resources.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/test_sandbox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/test_sdist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/test_svn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/test_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/tests/test_upload_docs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/site-packages/setuptools/version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Lib/tcl8.6/init.tcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/Activate.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_bz2.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_ctypes.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_ctypes_test.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_decimal.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_elementtree.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_hashlib.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_lzma.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_msi.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_multiprocessing.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_overlapped.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_socket.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_sqlite3.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_ssl.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_testbuffer.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_testcapi.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_testimportmultiple.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/_tkinter.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/activate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/deactivate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/pyexpat.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/python3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/pythonw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/select.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/tcl86t.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/tk86t.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/unicodedata.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/Scripts/winsound.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/venv/pyvenv.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess/Сhessmen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Chess.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Chess.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Chess/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Chess/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Chess/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Chess/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/Board.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/Board.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/Chess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/Chess.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/Form1.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/Form1.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/obj/Chess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Chess.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/obj/Chess.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Chess.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.designer.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.designer.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/Сhessmen.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/Figures.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -182,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625404919490</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=":construction: test">
+      <created>1625405006913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625405006913</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
