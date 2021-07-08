@@ -50,6 +50,11 @@
           }
         }
       },
+      "IronPython.StdLib/2.7.11": {
+        "dependencies": {
+          "IronPython": "2.7.11"
+        }
+      },
       "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.Win32.Registry/4.7.0": {
         "dependencies": {
@@ -247,6 +252,13 @@
       "sha512": "sha512-uKHcJ9N+bEpngWMBsz30oP4a6jnkmcUX9E73B3mcj0eddC5bdpxD0ojTVIQWvBSYMQaUAq69U6twHGVocOaDhg==",
       "path": "ironpython/2.7.11",
       "hashPath": "ironpython.2.7.11.nupkg.sha512"
+    },
+    "IronPython.StdLib/2.7.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iEuwTtp/Y+9mipusaumbTL5BN17B4e+AeckxM4NHXnKyviRWgNx1POvMtBQLgcE4b71CVE2VN+eGEh7y/5ukaA==",
+      "path": "ironpython.stdlib/2.7.11",
+      "hashPath": "ironpython.stdlib.2.7.11.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",

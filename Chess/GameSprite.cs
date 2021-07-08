@@ -16,7 +16,6 @@ namespace GameLoopProject
 
         public void Draw(Graphics gfx)
         {
-            // Draw sprite image on screen
             gfx.DrawImage(SpriteImage, new RectangleF(X, Y, Width, Height));
         }
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Konserva\\Desktop\\Coding_and_stuf\\College\\Chess\\Chess\\Chess.csproj": {}
+    "C:\\Users\\Konserva\\Desktop\\Колледж\\Системное программирование\\Уч практика\\Chess\\Chess\\Chess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Konserva\\Desktop\\Coding_and_stuf\\College\\Chess\\Chess\\Chess.csproj": {
+    "C:\\Users\\Konserva\\Desktop\\Колледж\\Системное программирование\\Уч практика\\Chess\\Chess\\Chess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Konserva\\Desktop\\Coding_and_stuf\\College\\Chess\\Chess\\Chess.csproj",
+        "projectUniqueName": "C:\\Users\\Konserva\\Desktop\\Колледж\\Системное программирование\\Уч практика\\Chess\\Chess\\Chess.csproj",
         "projectName": "Chess",
-        "projectPath": "C:\\Users\\Konserva\\Desktop\\Coding_and_stuf\\College\\Chess\\Chess\\Chess.csproj",
+        "projectPath": "C:\\Users\\Konserva\\Desktop\\Колледж\\Системное программирование\\Уч практика\\Chess\\Chess\\Chess.csproj",
         "packagesPath": "C:\\Users\\Konserva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Konserva\\Desktop\\Coding_and_stuf\\College\\Chess\\Chess\\obj\\",
+        "outputPath": "C:\\Users\\Konserva\\Desktop\\Колледж\\Системное программирование\\Уч практика\\Chess\\Chess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Konserva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "IronPython": {
               "target": "Package",
               "version": "[2.7.11, )"
+            },
+            "IronPython.StdLib": {
+              "target": "Package",
+              "version": "[2.7.11, )"
             }
           },
           "imports": [
@@ -63,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
