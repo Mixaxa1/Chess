@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Konserva\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Konserva\\.nuget\\packages"
+    ]
+  }
+}

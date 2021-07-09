@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -6,8 +7,7 @@ namespace GameLoopProject
 {
     public partial class Form1 : Form
     {
-        Timer graphicsTimer;
-        GameLoop gameLoop;
+        Game myGame;
 
         public Form1()
         {
@@ -18,22 +18,23 @@ namespace GameLoopProject
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Game myGame = new Game();
-            myGame.Resolution = new Size(400, 400);
+            Size size = new Size(400, 450);
 
-            gameLoop = new GameLoop();
-            gameLoop.Load(myGame);
-            gameLoop.Start();
-
+            myGame = new Game();
+            myGame.Resolution = size;
+            myGame.Load();
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            gameLoop.Draw(e.Graphics);
+            myGame.Draw(e.Graphics);
         }
 
         private void Form1_Click(object sender, EventArgs e)
         {
+            Point pos = Cursor.Position;
+            Debug.WriteLine(PointToClient(pos));
+            myGame.Update(PointToClient(pos));
             Invalidate();
         }
     }
