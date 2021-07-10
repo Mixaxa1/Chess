@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ui4rYJhpCoj/SRfejs0cd2lmGKf10wO7vvcLMYhaaGlEmDkSwx6Wtq1S9vYtB5XSpBnV+UxJwhULOjdK1CAs9w==",
+  "dgSpecHash": "jnViOWzBKVdXknle2RdUVJ559j6g7Fgyneh+qyTCX4DrE8wk+afIz5uZhvCP9jXtVwxPaLHKLEwOdY+tjpB/0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Konserva\\Desktop\\Coding_and_stuf\\College\\Chess\\Chess\\Chess.csproj",
+  "projectFilePath": "C:\\Users\\Konserva\\Desktop\\Колледж\\Системное программирование\\Уч практика\\Chess\\Chess\\Chess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Konserva\\.nuget\\packages\\dynamiclanguageruntime\\1.3.0\\dynamiclanguageruntime.1.3.0.nupkg.sha512",
     "C:\\Users\\Konserva\\.nuget\\packages\\ironpython\\2.7.11\\ironpython.2.7.11.nupkg.sha512",

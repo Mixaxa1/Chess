@@ -3,6 +3,9 @@ class Figure(object):
         self.cords = cords
         self.color = color
 
+        self.move_options = []
+        self.attack_options = []
+
 
 class King(Figure):
     def __init__(self, cords, color, sprite=None):
@@ -62,7 +65,7 @@ class Pawn(Figure):
         self.dash_used = False
 
     def get_move_options(self, board):
-        x, y = self.cords
+        y, x = self.cords
         options = []
 
         if y not in [0, 7]:
@@ -75,13 +78,13 @@ class Pawn(Figure):
             elif self.color == "black":
                 if board.check_figure((y - 1, x)) is False:
                     options.append((y - 1, x))
-                    if board.check_figure((y - 2, x)) is False and y == 7:
+                    if board.check_figure((y - 2, x)) is False and y == 6:
                         options.append((y - 2, x))
 
         return options
 
     def get_attack_options(self, board):
-        x, y = self.cords
+        y, x = self.cords
         field = board.board
         options = []
 

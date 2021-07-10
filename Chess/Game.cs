@@ -39,25 +39,7 @@ namespace GameLoopProject
 
             List<GameSprite> figures_sprites = new List<GameSprite>();
 
-            for (int row = 0; row < 8; row++)
-            {
-                for (int col = 0; col < 8; col++)
-                {
-                    if (this.board[row][col].figure != null)
-                    {
-                        dynamic figure = board[row][col].figure;
-                        GameSprite sprite = new GameSprite();
-
-                        sprite.SpriteImage = (Bitmap)Chess.Properties.Resources.ResourceManager.GetObject(figure.sprite);
-                        sprite.X = figure.cords[0] * 50 + 4;
-                        sprite.Y = figure.cords[1] * 50 + 54;
-                        sprite.Width = 42;
-                        sprite.Height = 42;
-
-                        this.figures_sprites.Add(sprite);
-                    }
-                }
-            }
+            Set_Sprites();
         }
 
         public void Update(Point cursor_pos)
@@ -68,6 +50,11 @@ namespace GameLoopProject
             game.process_action();
             this.board = game.get_board();
 
+            Set_Sprites();
+        }
+
+        public void Set_Sprites()
+        {
             this.figures_sprites.Clear();
 
             for (int row = 0; row < 8; row++)
@@ -80,8 +67,8 @@ namespace GameLoopProject
                         GameSprite sprite = new GameSprite();
 
                         sprite.SpriteImage = (Bitmap)Chess.Properties.Resources.ResourceManager.GetObject(figure.sprite);
-                        sprite.X = figure.cords[0] * 50 + 4;
-                        sprite.Y = figure.cords[1] * 50 + 54;
+                        sprite.X = figure.cords[1] * 50 + 4;
+                        sprite.Y = figure.cords[0] * 50 + 54;
                         sprite.Width = 42;
                         sprite.Height = 42;
 
