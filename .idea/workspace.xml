@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbb4c6a9-efb3-4262-beba-41ee5e65f01a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+    <list default="true" id="0c440fb7-5666-4e6b-9bba-6c147274f546" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/Chess.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Chess.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_07_2021_16_17_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_07_2021_16_17_[Default_Changelist]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_07_2021_16_17__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Chess/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Chess/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Chess/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Chess/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/Game.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Board.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Board.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Chess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Chess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Chess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Chess.pdb" afterDir="false" />
@@ -24,11 +15,9 @@
       <change beforePath="$PROJECT_DIR$/Chess/obj/Chess.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Chess.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/obj/Release/netcoreapp3.1/Chess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Release/netcoreapp3.1/Chess.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/project.nuget.cache" afterDir="false" />
     </list>
@@ -40,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1v6n0zAdgm59aFMUl5dZPYytAhS" />
+  <component name="ProjectId" id="1v8Y89pkWvGl3oAHzJdCzajaiH5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,20 +37,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Game">
     <configuration name="Game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Chess" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="PYTHONUNBUFFERED" value="1, PYCHARM_DEBUG = True" />
+        <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Konserva\Desktop\Колледж\Системное программирование\Python\pythonProject\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Konserva\AppData\Local\Programs\Python\Python39\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Game.py" />
@@ -78,9 +65,9 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="PYTHONUNBUFFERED" value="1, PYCHARM_DEBUG = True" />
+        <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Konserva\AppData\Local\Programs\Python\Python39\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -94,6 +81,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="project" type="PythonConfigurationType" factoryName="Python">
+      <module name="Chess" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Konserva\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.project" />
+      <item itemvalue="Python.Game" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Game" />
@@ -103,11 +115,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bbb4c6a9-efb3-4262-beba-41ee5e65f01a" name="Default Changelist" comment="" />
-      <created>1625891188471</created>
+      <changelist id="0c440fb7-5666-4e6b-9bba-6c147274f546" name="Default Changelist" comment="" />
+      <created>1625945020896</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1625891188471</updated>
+      <updated>1625945020896</updated>
     </task>
     <servers />
   </component>
@@ -116,7 +128,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Game.py</url>
-          <line>89</line>
+          <line>73</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

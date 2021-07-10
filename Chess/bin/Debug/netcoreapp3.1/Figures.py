@@ -53,8 +53,18 @@ class Rook(Figure):
 
         self.sprite = "rook_" + color
 
-    def check_move(self):
-        pass
+    def get_move_options(self, board):
+        y, x = self.cords
+        options = []
+
+        return options
+
+    def get_attack_options(self, board):
+        y, x = self.cords
+        field = board.board
+        options = []
+
+        return options
 
 
 class Pawn(Figure):
@@ -70,61 +80,64 @@ class Pawn(Figure):
 
         if y not in [0, 7]:
             if self.color == "white":
-                if board.check_figure((y + 1, x)) is False:
+                if board[y + 1][x].check_figure() is False:
                     options.append((y + 1, x))
-                    if board.check_figure((y + 2, x)) is False and y == 1:
+                    if board[y + 2][x].check_figure() is False and y == 1:
                         options.append((y + 2, x))
 
             elif self.color == "black":
-                if board.check_figure((y - 1, x)) is False:
+                if board[y - 1][x].check_figure() is False:
                     options.append((y - 1, x))
-                    if board.check_figure((y - 2, x)) is False and y == 6:
+                    if board[y - 2][x].check_figure() is False and y == 6:
                         options.append((y - 2, x))
 
         return options
 
     def get_attack_options(self, board):
         y, x = self.cords
-        field = board.board
         options = []
 
         if y not in [0, 7]:
             if self.color == "white":
                 if 0 <= x < 7:
-                    if board.check_figure((y + 1, x + 1)):
-                        if field[y + 1][x + 1].figure.color != self.color:
+                    if board[y + 1][x + 1].check_figure():
+                        if board[y + 1][x + 1].figure.color != self.color:
                             options.append((y + 1, x + 1))
 
-                    if board.check_figure((y, x + 1)) and board.check_figure((y + 1, x + 1)) is False:
-                        if type(field[y][x + 1].figure) is Pawn and field[y][x + 1].figure.color != self.color:
+                    if board[y][x + 1].check_figure() and board[y + 1][x + 1].check_figure() is False:
+                        if type(board[y][x + 1].figure) is Pawn and board[y][x + 1].figure.color != self.color \
+                                and board[y][x + 1].figure.dash_used is True and y == 5:
                             options.append((y + 1, x + 1))
 
                 if 0 < x <= 7:
-                    if board.check_figure((y + 1, x - 1)):
-                        if field[y + 1][x - 1].figure.color != self.color:
+                    if board[y + 1][x - 1].check_figure():
+                        if board[y + 1][x - 1].figure.color != self.color:
                             options.append((y + 1, x - 1))
 
-                    if board.check_figure((y, x - 1)) and board.check_figure((y + 1, x - 1)) is False:
-                        if type(field[y][x - 1].figure) is Pawn and field[y][x - 1].figure.color != self.color:
+                    if board[y][x - 1].check_figure() and board[y + 1][x - 1].check_figure() is False:
+                        if type(board[y][x - 1].figure) is Pawn and board[y][x - 1].figure.color != self.color\
+                                and board[y][x - 1].figure.dash_used is True and y == 5:
                             options.append((y + 1, x - 1))
 
             if self.color == "black":
                 if 0 <= x < 7:
-                    if board.check_figure((y - 1, x + 1)):
-                        if field[y - 1][x + 1].figure.color != self.color:
+                    if board[y - 1][x + 1].check_figure():
+                        if board[y - 1][x + 1].figure.color != self.color:
                             options.append((y - 1, x + 1))
 
-                    if board.check_figure((y, x + 1)) and board.check_figure((y - 1, x + 1)) is False:
-                        if type(field[y][x + 1].figure) is Pawn and field[y][x + 1].figure.color != self.color:
+                    if board[y][x + 1].check_figure() and board[y - 1][x + 1].check_figure() is False:
+                        if type(board[y][x + 1].figure) is Pawn and board[y][x + 1].figure.color != self.color\
+                                and board[y][x + 1].figure.dash_used is True and y == 3:
                             options.append((y - 1, x + 1))
 
                 if 0 < x <= 7:
-                    if board.check_figure((y - 1, x - 1)):
-                        if field[y + 1][x - 1].figure.color != self.color:
+                    if board[y - 1][x - 1].check_figure():
+                        if board[y - 1][x - 1].figure.color != self.color:
                             options.append((y - 1, x - 1))
 
-                    if board.check_figure((y, x - 1)) and board.check_figure((y - 1, x - 1)) is False:
-                        if type(field[y][x - 1].figure) is Pawn and field[y][x - 1].figure.color != self.color:
+                    if board[y][x - 1].check_figure() and board[y - 1][x - 1].check_figure() is False:
+                        if type(board[y][x - 1].figure) is Pawn and board[y][x - 1].figure.color != self.color \
+                                and board[y][x - 1].figure.dash_used is True and y == 3:
                             options.append((y - 1, x - 1))
 
         return options

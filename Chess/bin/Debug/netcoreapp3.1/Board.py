@@ -9,6 +9,11 @@ class Tile(object):
         self.highlighted = False
         self.highlight_color = "yellow"
 
+    def check_figure(self):
+        if self.figure is None:
+            return False
+        return True
+
 
 class Board(object):
     def __init__(self):
@@ -40,12 +45,21 @@ class Board(object):
             for tile in row:
                 tile.highlighted = False
 
-    def check_figure(self, cords):
-        if self.board[cords[0]][cords[1]].figure is None:
-            return False
-        return True
-
     def move_figure(self, cords1, cords2):
+        cord_y1, cord_x1 = cords1
+        cord_y2, cord_x2 = cords2
+
+        if self.is_it_taking_on_aisle(cords1, cords2):
+            self.taking_on_aisle(cords1, cords2)
+        if self.is_it_dash(cords1, cords2):
+            self.reset_dashes()
+            self.board[cord_y1][cord_x1].figure.dash_used = True
+            self.standard_move(cords1, cords2)
+        else:
+            self.standard_move(cords1, cords2)
+            self.reset_dashes()
+
+    def standard_move(self, cords1, cords2):
         cord_y1, cord_x1 = cords1
         cord_y2, cord_x2 = cords2
 
@@ -55,9 +69,42 @@ class Board(object):
         self.board[cord_y1][cord_x1].figure = None
         self.board[cord_y2][cord_x2].figure = figure
 
-    def attack(self, cords1, cords2):
+    def is_it_dash(self, cords1, cords2):
         cord_y1, cord_x1 = cords1
         cord_y2, cord_x2 = cords2
+
+        if type(self.board[cord_y1][cord_x1].figure) is Pawn and abs(cord_y1 - cord_y2) == 2:
+            return True
+        else:
+            return False
+
+    def reset_dashes(self):
+        for row in range(8):
+            for col in range(8):
+                if self.board[row][col].check_figure():
+                    if type(self.board[row][col].figure) is Pawn:
+                        self.board[row][col].figure.dash_used = False
+
+    def is_it_taking_on_aisle(self, cords1, cords2):
+        cord_y1, cord_x1 = cords1
+        cord_y2, cord_x2 = cords2
+        check_x = cord_x1 - (cord_x1 - cord_x2)
+
+        if self.board[cord_y1][check_x].check_figure() and self.board[cord_y2][cord_x2].check_figure() is False \
+                and cord_x1 != cord_x2:
+            return True
+        return False
+
+    def taking_on_aisle(self, cords1, cords2):
+        cord_y1, cord_x1 = cords1
+        cord_y2, cord_x2 = cords2
+        check_x = cord_x1 - (cord_x1 - cord_x2)
+
+        figure = self.board[cord_y1][cord_x1].figure
+        figure.cords = (cord_y2, cord_x2)
+
+        self.board[cord_y1][check_x].figure = None
+        self.board[cord_y2][cord_x2].figure = figure
 
     def delete_figure(self, cords):
         self.board[cords[1]][cords[0]].figure = None
