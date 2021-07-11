@@ -29,7 +29,8 @@ class Board(object):
             for j in [0, 1, 6, 7]:
                 self.board[j][i].figure = get_figure((j, i))
 
-    def highlight_options(self, move_options, attack_options):
+    def highlight_options(self, options):
+        move_options, attack_options = options
         for cords in move_options:
             x, y = cords
             self.board[y][x].highlight_color = 'yellow'

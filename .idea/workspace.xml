@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c440fb7-5666-4e6b-9bba-6c147274f546" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Chess.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Chess.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Chess/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Chess/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Chess/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Chess/v16/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Board.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Board.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Chess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Chess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Chess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Chess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Figures.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Figures.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/obj/Chess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Chess.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/obj/Chess.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Chess.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/Debug/netcoreapp3.1/Chess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,13 +111,30 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Game.py</url>
-          <line>73</line>
+          <line>74</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chess/bin/Debug/netcoreapp3.1/Game.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

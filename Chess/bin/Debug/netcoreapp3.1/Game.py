@@ -33,7 +33,8 @@ class Game(object):
                         and self.board[pos_y][pos_x].figure.color != self.selected_figure.color:
 
                     cords = (pos_y, pos_x)
-                    if cords in self.selected_figure.move_options or cords in self.selected_figure.attack_options:
+                    if cords in self.selected_figure.action_options[0] \
+                            or cords in self.selected_figure.action_options[1]:
                         self.board_obj.move_figure(self.selected_figure.cords, (pos_y, pos_x))
 
                         self.change_turn()
@@ -50,9 +51,8 @@ class Game(object):
                     self.is_figure_selected = True
                     self.selected_figure = figure
 
-                    figure.move_options = figure.get_move_options(self.board)
-                    figure.attack_options = figure.get_attack_options(self.board)
-                    self.board_obj.highlight_options(figure.move_options, figure.attack_options)
+                    figure.action_options = figure.get_action_options(self.board)
+                    self.board_obj.highlight_options(figure.action_options)
 
     def change_turn(self):
         if self.turn == "white":
@@ -69,18 +69,21 @@ class Game(object):
         self.process_action()
 
 
+
 a = Game()
 
-a.test(25, 125)
-a.test(25, 225)
+a.test(175, 125)
+a.test(175, 225)
+
 a.test(75, 375)
 a.test(75, 275)
-a.test(125, 125)
-a.test(125, 175)
-a.test(75, 275)
-a.test(75, 225)
-a.test(175, 125)
-a.test(175, 175)
-a.test(75, 225)
+
+a.test(175, 225)
+a.test(175, 275)
+
+a.test(125, 375)
+a.test(125, 275)
+
+a.test(175, 275)
 
 print(2 - (-1))
