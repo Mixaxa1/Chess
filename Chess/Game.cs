@@ -42,15 +42,21 @@ namespace GameLoopProject
             Set_Sprites();
         }
 
-        public void Update(Point cursor_pos)
+        public string Update(Point cursor_pos)
         {
             int pos_x = cursor_pos.X, pos_y = cursor_pos.Y;
+            string turn;
+
             game.set_pos_x(pos_x);
             game.set_pos_y(pos_y);
             game.process_action();
+
             this.board = game.get_board();
+            turn = game.get_turn();
 
             Set_Sprites();
+
+            return turn;
         }
 
         public void Set_Sprites()
@@ -104,20 +110,25 @@ namespace GameLoopProject
                     {
                         if (tile.highlight_color == "yellow")
                         {
-                            gfx.FillRectangle(new SolidBrush(Color.Yellow), new Rectangle(row * 50, 50 + col * 50, 50, 50));
+                            gfx.FillRectangle(new SolidBrush(Color.Yellow), new Rectangle(col * 50, 50 + row * 50, 50, 50));
                         }
                         else if (tile.highlight_color == "red")
                         {
-                            gfx.FillRectangle(new SolidBrush(Color.Red), new Rectangle(row * 50, 50 + col * 50, 50, 50));
+                            gfx.FillRectangle(new SolidBrush(Color.Red), new Rectangle(col * 50, 50 + row * 50, 50, 50));
                         }
+                        else if (tile.highlight_color == "green")
+                        {
+                            gfx.FillRectangle(new SolidBrush(Color.Green), new Rectangle(col * 50, 50 + row * 50, 50, 50));
+                        }
+
                     }
                     else if (tile.color == "white")
                     {
-                        gfx.FillRectangle(new SolidBrush(Color.BurlyWood), new Rectangle(row * 50, 50 + col * 50, 50, 50));
+                        gfx.FillRectangle(new SolidBrush(Color.BurlyWood), new Rectangle(col * 50, 50 + row * 50, 50, 50));
                     }
                     else
                     {
-                        gfx.FillRectangle(new SolidBrush(Color.Maroon), new Rectangle(row * 50, 50 + col * 50, 50, 50));
+                        gfx.FillRectangle(new SolidBrush(Color.Maroon), new Rectangle(col * 50, 50 + row * 50, 50, 50));
                     }
                 }
             }

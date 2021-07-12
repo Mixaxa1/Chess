@@ -23,6 +23,8 @@ namespace GameLoopProject
             myGame = new Game();
             myGame.Resolution = size;
             myGame.Load();
+
+            TurnLabel.Text = "Ход белых";
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
@@ -33,9 +35,26 @@ namespace GameLoopProject
         private void Form1_Click(object sender, EventArgs e)
         {
             Point pos = Cursor.Position;
+            string turn;
+
             Debug.WriteLine(PointToClient(pos));
-            myGame.Update(PointToClient(pos));
+            turn = myGame.Update(PointToClient(pos));
+
+            if (turn == "white")
+            {
+                TurnLabel.Text = "Ход белых";
+            }
+            else
+            {
+                TurnLabel.Text = "Ход черных";
+            }
+
             Invalidate();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,4 +1,4 @@
-from Board import Board
+from Board import Board, King
 
 
 class Game(object):
@@ -23,14 +23,16 @@ class Game(object):
     def process_action(self):
         pos_x, pos_y = self.pos_x, self.pos_y
 
-        if 50 < pos_y < 450 and 0 < pos_x < 400:
+        if 50 < pos_y <= 450 and 0 < pos_x <= 400:
             pos_y -= 50
 
             pos_x, pos_y = pos_x // 50, pos_y // 50
 
             if self.is_figure_selected:
-                if self.board[pos_y][pos_x].check_figure() is False or self.board[pos_y][pos_x].check_figure() \
-                        and self.board[pos_y][pos_x].figure.color != self.selected_figure.color:
+                target_tile = self.board[pos_y][pos_x]
+                if target_tile.check_figure() is False \
+                        or target_tile.check_figure() and target_tile.figure.color != self.selected_figure.color \
+                        or type(target_tile.figure) is King and target_tile.figure.color == self.selected_figure.color:
 
                     cords = (pos_y, pos_x)
                     if cords in self.selected_figure.action_options[0] \
@@ -51,7 +53,7 @@ class Game(object):
                     self.is_figure_selected = True
                     self.selected_figure = figure
 
-                    figure.action_options = figure.get_action_options(self.board)
+                    figure.action_options = figure.get_action_options(self.board_obj)
                     self.board_obj.highlight_options(figure.action_options)
 
     def change_turn(self):
@@ -60,30 +62,33 @@ class Game(object):
         else:
             self.turn = "white"
 
+    def get_turn(self):
+        return self.turn
+
     def get_board(self):
         return self.board
 
     def test(self, x, y):
-        self.set_pos_x(x)
-        self.set_pos_y(y)
+        self.set_pos_x(50 * x - 25)
+        self.set_pos_y(50 * y + 50 - 25)
         self.process_action()
-
 
 
 a = Game()
 
-a.test(175, 125)
-a.test(175, 225)
+a.test(7, 2)
+a.test(7, 3)
 
-a.test(75, 375)
-a.test(75, 275)
+a.test(1, 7)
+a.test(1, 6)
 
-a.test(175, 225)
-a.test(175, 275)
+a.test(6, 1)
+a.test(8, 3)
 
-a.test(125, 375)
-a.test(125, 275)
+a.test(1, 6)
+a.test(1, 5)
 
-a.test(175, 275)
+a.test(8, 3)
+a.test(7, 4)
 
-print(2 - (-1))
+print(a.board[5][5].figure)
